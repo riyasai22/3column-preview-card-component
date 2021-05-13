@@ -27,6 +27,8 @@ body{
     flex:33%;
     padding:30px;
     color:#f5dabe;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
 }
 .col2{
     background-color:#016972;
@@ -39,6 +41,8 @@ body{
     flex:33%;
     padding:30px;
     color:#059795;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
 }
 .container img{
     margin-top:20px;
@@ -60,7 +64,6 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     font-size:15px;
     line-height:1.8;
-
 }
 .lm{
     border:2px solid white;
@@ -114,7 +117,6 @@ body{
 {
     color:white;
 }
-
 @media(max-width:1000px){
     .container{
         flex-direction:column;
@@ -123,11 +125,18 @@ body{
     }
     .col1{
         flex-basis:100%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
     }
     .col2{
         flex-basis:100%;
     }
     .col3{
         flex-basis:100%;
+        border-bottom-right-radius: 6px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 6px;
     }
 }
+
