@@ -19,7 +19,7 @@ body{
     background-color:white;
     display:flex;
     justify-content:center;
-    margin:100px 350px;
+    margin:150px 220px;
 
 }
 .col1{
@@ -139,4 +139,3 @@ body{
         border-bottom-left-radius: 6px;
     }
 }
-
