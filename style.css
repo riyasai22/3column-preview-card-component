@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#F2F2F2;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:auto;
+    color:white;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.container{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    margin:100px 350px;
+
+}
+.col1{
+    background-color:#E28525;
+    flex:33%;
+    padding:30px;
+    color:#f5dabe;
+}
+.col2{
+    background-color:#016972;
+    flex:33%;
+    padding:30px;
+    color:#4db2bb;
+}
+.col3{
+    background-color: #00403F;
+    flex:33%;
+    padding:30px;
+    color:#059795;
+}
+.container img{
+    margin-top:20px;
+    width:auto;
+    height:35px;
+}
+.container h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    margin-top:25px;
+    font-weight: 400;
+    font-size:35px;
+    margin-bottom:40px;
+    color:white;
+}
+.container p{
+    margin-bottom:80px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:15px;
+    line-height:1.8;
+
+}
+.lm{
+    border:2px solid white;
+    border-radius:30px;
+    text-align:center;
+    padding:12px;
+    margin-bottom:30px;
+    width:140px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    transition: all 0.3s;
+}
+.lm a{
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor:pointer;
+}
+.col1 .lm a
+{
+    color:#E28525;
+}
+.col2 .lm a
+{
+    color:#016972;
+}
+.col3 .lm a
+{
+    color: #00403F;
+}
+.col1 .lm:hover
+{
+    background-color:#E28525;
+}
+.col1 .lm a:hover
+{
+    color:white;
+}
+.col2 .lm:hover
+{
+    background-color:#016972;
+}
+.col2 .lm a:hover
+{
+    color:white;
+}
+.col3 .lm:hover
+{
+    background-color:#00403F;
+}
+.col3 .lm a:hover
+{
+    color:white;
+}
+
+@media(max-width:1000px){
+    .container{
+        flex-direction:column;
+        margin:80px 40px;
+        padding:30px;
+    }
+    .col1{
+        flex-basis:100%;
+    }
+    .col2{
+        flex-basis:100%;
+    }
+    .col3{
+        flex-basis:100%;
+    }
+}
